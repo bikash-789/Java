@@ -1,4 +1,5 @@
-public class Main {
+public class Recursion {
+    // Recursive function to find the n-th fibonacci sequence
     public static int fib(int n)
     {
         // base case
@@ -24,6 +25,7 @@ public class Main {
         return smallAns + n%10;
     }
 
+    // Main function
     public static void main(String[] args) {
         System.out.println(fib(7));
         System.out.println(sumOfDigits(1));
